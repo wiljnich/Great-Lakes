@@ -10,20 +10,20 @@ library(ggplot2)
 library(ggthemes)
 
 # Read in lake level data from GLERL site
-clair <- read.csv('clair1918.csv')
-#read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/clair1918.csv', skip=2)
+#clair <- read.csv('clair1918.csv')
+clair <- read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/clair1918.csv', skip=2)
 clair$Lake <- 'Lake St. Clair'
-miHuron  <- read.csv('miHuron1918.csv')
-#read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/miHuron1918.csv', skip=2)
+#miHuron  <- read.csv('miHuron1918.csv')
+miHuron  <- read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/miHuron1918.csv', skip=2)
 miHuron$Lake <- 'Lake Michigan-Huron'
-erie  <- read.csv('erie1918.csv')
-#read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/erie1918.csv', skip=2)
+#erie <- read.csv('erie1918.csv')
+erie <- read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/erie1918.csv', skip=2)
 erie$Lake <- 'Lake Erie'
-superior <- read.csv('superior1918.csv')
-#read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/superior1918.csv', skip=2)
+#superior <- read.csv('superior1918.csv')
+superior <- read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/superior1918.csv', skip=2)
 superior$Lake <- 'Lake Superior'
-ontario  <- read.csv('ontario1918.csv')
-#read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/ontario1918.csv', skip=2)
+#ontario  <- read.csv('ontario1918.csv')
+ontario  <- read.csv('https://www.glerl.noaa.gov/data/dashboard/data/levels/1918_PRES/ontario1918.csv', skip=2)
 ontario$Lake <- 'Lake Ontario'
 
 cbPalette <- c("#0072B2", "#009E73", "#999999", "#E69F00", "#56B4E9", "#F0E442", "#D55E00", "#CC79A7")

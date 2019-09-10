@@ -1,0 +1,12 @@
+name: GL-Water-Levels
+title: GL-Water-Levels
+username:
+account: wiljnich
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1174726
+bundleId: 2403946
+url: https://wiljnich.shinyapps.io/GL-Water-Levels/
+when: 1568143372.37937
+asMultiple: FALSE
+asStatic: FALSE
